@@ -1,0 +1,45 @@
+   {% extends "ProyectoWebApp/base.html" %}
+
+   {% load static %}
+   
+   {% block content %}
+
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'ProyectoWebApp/img/iglesia.jpg' %}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-upper">Seriedad y Responsabilidad</span>
+            <span class="section-heading-lower">Su Inmueble en Mogotes</span>
+          </h2>
+          <p class="mb-3">Compra Venta de Finca Raíz, Permuta, Asesoría Jurídica, Avaluos, 
+                          Seguro de servicios públicos, Topografía y Mantenimiento del inmueble.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Compromiso total</span>
+                <span class="section-heading-lower">Garantizado</span>
+              </h2>
+              <p class="mb-0">Con más de 25 años de experiencia a nuestras espaldas.</p>
+              <p class="mb-0">Administramos su inmueble con Responsabilidad, Seriedad y Profesionalidad.</p>
+              <p class="mb-0">Solicita información al teléfono: 323 5717322 / WhatsApp: 323 5717322</p>
+              <p class="mb-0">"Estaremos gustosos de atenderlos"</p>
+              <p class="mb-0">En toda la Provincia Guanentina</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% endblock %}
